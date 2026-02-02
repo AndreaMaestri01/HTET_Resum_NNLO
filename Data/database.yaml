@@ -1,0 +1,36 @@
+config1:
+  Lambda_frac_4pi: 5.0
+  M: 1.0
+  2piR: 10.0
+config2:
+  Lambda_frac_4pi: 1.0
+  M: 1.0
+  2piR: 10.0
+config3:
+  Lambda_frac_4pi: 3.0
+  M: 1.0
+  2piR: 10.0
+config4:
+  Lambda_frac_4pi: 1.0
+  M: 1.0
+  2piR: 15.0
+config5:
+  Lambda_frac_4pi: 3.0
+  M: 1.0
+  2piR: 15.0
+config6:
+  Lambda_frac_4pi: 5.0
+  M: 1.0
+  2piR: 15.0
+config7:
+  Lambda_frac_4pi: 1.0
+  M: 1.0
+  2piR: 20.0
+config8:
+  Lambda_frac_4pi: 3.0
+  M: 1.0
+  2piR: 20.0
+config9:
+  Lambda_frac_4pi: 5.0
+  M: 1.0
+  2piR: 20.0
