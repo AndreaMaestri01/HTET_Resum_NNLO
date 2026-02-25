@@ -79,15 +79,15 @@ The suffix `<TYPE>` specifies the truncation/improvement scheme used:
 Each `Eigen_Emax<N>_<TYPE>.txt` file contains the low-energy spectrum obtained by diagonalizing the (truncated/effective) Hamiltonian $H$ at fixed $E_{\max}$.
 
 Specifically, each `.txt` file stores the **ordered list of eigenvalues**:
-$$
+```math
 E_0,\; E_1,\; E_2,\; \dots
-$$
+```
 with $E_0$ the ground-state energy and $E_n$ the $n$-th excited level.
 
 These eigenvalues can be used to construct gaps such as
-$$
+```
 \Delta E_1(E_{\max}) = E_1(E_{\max}) - E_0(E_{\max}),
-$$
+```
 and, more generally, $\Delta E_n = E_n - E_0$.
 
 No further post-processing is applied to the data stored in these files.
