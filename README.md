@@ -69,7 +69,7 @@ The suffix `<TYPE>` specifies the truncation/improvement scheme used:
 | `Imp_Cont`    | Same as `Imp`, but matching coefficients evaluated in infinite volume |
 | `NLO`         | HTET including next-to-local corrections $O(E_{\max}^{-3})$ |
 | `NLO_Cont`    | NLO with infinite-volume matching coefficients |
-| `NNLoc_Cont`   | HTET including NNLoc non-local corrections $O(E_{\max}^{-4})$ |
+| `NNLO_Cont`   | HTET including NNLoc non-local corrections $O(E_{\max}^{-4})$ |
 | `Resum`       | Resummed local corrections to mass and coupling |
 
 ---
