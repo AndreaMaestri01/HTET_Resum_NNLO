@@ -1,6 +1,6 @@
-# Numerical database for HTET with NNLO corrections
+# Numerical database for HTET with NNLoc corrections
 
-This repository contains the numerical data used in the analysis of Hamiltonian Truncation Effective Theory (HTET) for the two–dimensional $\lambda\phi^4$ theory on a circle, including local, resummed, and non–local corrections up to next–to–next–to–local order (NNLO).
+This repository contains the numerical data used in the analysis of Hamiltonian Truncation Effective Theory (HTET) for the two–dimensional $\lambda\phi^4$ theory on a circle, including local, resummed, and non–local corrections up to next–to–next–to–local order (NNLoc).
 
 The data correspond to the results discussed in Sections II–V of the accompanying paper:
 
@@ -69,7 +69,7 @@ The suffix `<TYPE>` specifies the truncation/improvement scheme used:
 | `Imp_Cont`    | Same as `Imp`, but matching coefficients evaluated in infinite volume |
 | `NLO`         | HTET including next-to-local corrections $O(E_{\max}^{-3})$ |
 | `NLO_Cont`    | NLO with infinite-volume matching coefficients |
-| `NNLO_Cont`   | HTET including NNLO non-local corrections $O(E_{\max}^{-4})$ |
+| `NNLoc_Cont`   | HTET including NNLoc non-local corrections $O(E_{\max}^{-4})$ |
 | `Resum`       | Resummed local corrections to mass and coupling |
 
 ---
@@ -98,7 +98,7 @@ No further post-processing is applied to the data stored in these files.
 
 A typical analysis workflow is:
 1. Select a configuration `configX` corresponding to fixed $(\lambda, m, R)$.
-2. For a given approximation scheme (`Raw`, `Imp/LO`, `NLO`, `NNLO`, `Resum`), load the files at different `Emax`.
+2. For a given approximation scheme (`Raw`, `Imp/LO`, `NLO`, `NNLoc`, `Resum`), load the files at different `Emax`.
 3. Study the convergence of spectral quantities as a function of $E_{\max}$.
 4. Compare different HTET prescriptions at fixed parameters.
 
@@ -107,5 +107,5 @@ A typical analysis workflow is:
 ## 6. Relation to the paper
 
 - Local and resummed corrections: Sec. III.
-- NLO and NNLO non-local operator insertions: Sec. IV (operator classification and scaling in $1/E_{\max}$).
+- NLO and NNLoc non-local operator insertions: Sec. IV (operator classification and scaling in $1/E_{\max}$).
 - Numerical convergence studies: Sec. V.
